@@ -450,4 +450,10 @@ INPUT TriangleCircuit.jpg
 INPUT .\Wheatstone.jpg
 INPUT .\Wheatstone.jpg
 INPUT Wheatstone.jpg
+INPUT .\die.cpp
+INPUT die.cpp
+INPUT .\die.cpp
+INPUT die.cpp
+INPUT .\die.cpp
+INPUT die.cpp
 INPUT physics.aux

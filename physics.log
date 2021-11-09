@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.11.9)  9 NOV 2021 23:16
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.11.9)  9 NOV 2021 23:44
 entering extended mode
 **./physics.tex
 (physics.tex
@@ -527,41 +527,43 @@ Underfull \hbox (badness 10000) in paragraph at lines 100--123
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--134
-
- []
-
 File: RingAndCharge.jpg Graphic file (type bmp)
 <RingAndCharge.jpg>
-physics.tex:159: Missing $ inserted.
-<inserted text> 
-                $
-l.159 \subsection{基礎電路}
-                       
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+File: 21-98.jpg Graphic file (type bmp)
+<21-98.jpg>
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 136--159
+Underfull \hbox (badness 10000) in paragraph at lines 136--160
 
  []
+
+
+physics.tex:162: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.162 \subsection
+                 {基礎電路}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 File: TriangleCircuit.jpg Graphic file (type bmp)
 <TriangleCircuit.jpg>
 File: Wheatstone.jpg Graphic file (type bmp)
 <Wheatstone.jpg>
-physics.tex:192: Missing number, treated as zero.
+physics.tex:195: Missing number, treated as zero.
 <to be read again> 
                    (
-l.192 $ R_{m}=R_{v}\time (
+l.195 $ R_{m}=R_{v}\time (
                           m-1)$\\
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-physics.tex:199: Undefined control sequence.
-l.199 $\phi=\sum \vec{E} \cdot \vardelta
+physics.tex:202: Undefined control sequence.
+l.202 $\phi=\sum \vec{E} \cdot \vardelta
                                          \vec{A} (\frac{N\cdot m^2}{C})\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -569,31 +571,26 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-physics.tex:200: Missing $ inserted.
+physics.tex:203: Missing $ inserted.
 <inserted text> 
                 $
-l.200 高斯定律通過高斯面之總電通量 $\phi
+l.203 高斯定律通過高斯面之總電通量 $\phi
                           $ \\與該曲面之靜電荷 $q_{enc}$ 之間關係 \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-physics.tex:216: LaTeX Error: There's no line here to end.
+physics.tex:220: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.216 \section
+l.220 \section
               {翻譯}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 217--239
-
- []
 
 
 Package xeCJK Warning: Unknown CJK family `\CJKttdefault' is being ignored.
@@ -627,12 +624,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 8840 strings out of 411275
- 195905 string characters out of 2835482
+ 8877 strings out of 411275
+ 196510 string characters out of 2835482
  857412 words of memory out of 3000000
- 29155 multiletter control sequences out of 15000+600000
- 405975 words of font info for 73 fonts, out of 8000000 for 9000
+ 29180 multiletter control sequences out of 15000+600000
+ 409109 words of font info for 89 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 73i,11n,81p,249b,1302s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 73i,11n,81p,249b,1265s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on physics.pdf (1 page).

@@ -97,12 +97,12 @@ stringstyle=\itshape\color{Green4},
 \section{公式}
 
 \subsection{向量}
-$|\vec{u}|=\sqrt{\vec{i}^2+\vec{j}^2+\vec{k}^2}$ \\ %長度
+$|\vec{u}|=\sqrt{\vec{i}^2+\vec{j}^2+\vec{k}^2}$  %長度
 $a_{x}=a\cos\theta$ 
 $b_{x}=b\sin\theta$ \\
-$|\hat{u}|=\frac{u}{|\vec{u}|}$ \\ %單位向量
+$|\hat{u}|=\frac{u}{|\vec{u}|}$  %單位向量
 $|\vec{a}\cdot\vec{b}|=|\vec{a}||\vec{b}|\cos\theta$ \\ %內積
-$\vec{a}\cdot\vec{b}=a_{x}b_{x}+a_{j}b_{j}+a_{z}b_{z}$ \\
+$\vec{a}\cdot\vec{b}=a_{x}b_{x}+a_{j}b_{j}+a_{z}b_{z}$ 
 $\vec{a}\times\vec{b}=|\vec{a}||\vec{b}|\sin\theta$ \\ %外積
 $\vec{a}\times\vec{b}=\vec{i}$
 \begin{vmatrix}
@@ -129,8 +129,9 @@ $\frac{d}{dx}a^x=a^xlog_{e}a$ \\
 $\int v_{t}=x_{t}$ 
 $\int a_{t}=v_{t}$ \\
 $\int \frac{1}{x}dx=log_{e}|x|$ 
-$\int e^xdx=e^x$ \\
-$\int a^xdx=\frac{a^x}{log_{e}}+c$ 
+$\int a^xdx=\frac{a^x}{log_{e}}+c$ \\
+$\int e^xdx=e^x$ 
+
 
 \subsection{靜電力 庫倫定律}
 $基本電荷 e=1.602\times10^{-19}C$ \\
@@ -160,27 +161,37 @@ $ |E|=\frac{4kQ}{\pi a^2} $\\
 
 \\
 \subsection{基礎電路}
+$I=\frac{Q}{t}=\frac{n \cdot A \cdot \cdot L \codt e}{\frac{L}{V_{d}}}=nA_{e}V_{d}$\\
+$ e:載子的單位電量$ $n:每單位體積載子數$\\$A:截面積$ $L:長度$\\
 $ V_{t}=E-V_{r} $ \\
 $ P=\frac{W}{t}=\frac{V \times Q}{t}=V\times I=\frac{V^2}{R}=I^2 R$ \\
 $ R=\rho \times \frac{l}{A}$\\ 
 串聯電路 \\
 $ E=V_{1}+V_{2}+.....+V_{n}$ \\
 $ R_{T}=R_{1}+R_{2}+.....+R_{n}$ \\ 
-克希荷夫電壓定律 \\
-$ \sum V_{rise}=\sum V_{drop} $ \\
-$ \sum V = \sum V_{rise}-\sum V_{drop} =0$ \\ 
+% 克希荷夫電壓定律 \\
+% $ \sum V_{rise}=\sum V_{drop} $ \\
+% $ \sum V = \sum V_{rise}-\sum V_{drop} =0$ \\ 
 並聯電路 \\
 $ E=V_{1}=V_{2}=.....=V_{n}$ \\
 $ I_{n}=\frac{E}{R_{n}}=G_{n}\times E$ \\ 
 $ G_{T}=G_{1}+G_{2}+.....+G_{n}$ \\
 $ \frac{1}{R_{T}}=\frac{1}{R_{1}}+\frac{1}{R_{2}}+.....+\frac{1}{R_{n}}$ \\ 
-克希荷夫電流定律 \\
-$ \sum I_{in}=\sum I_{out} $ \\
-$ \sum V = \sum I_{in}-\sum I_{out} =0$ \\
+% 克希荷夫電流定律 \\
+% $ \sum I_{in}=\sum I_{out} $ \\
+% $ \sum V = \sum I_{in}-\sum I_{out} =0$ \\
+\includegraphics[height=1in]{kirchhoff.jpg}
+\left\{
+\begin{array}{l}
+$Junction$ $I_{1}+I_{2}=I_{3}$\\
+$左迴路$ $10-I_{1} \codt 1 +5- I_{2} \cdot 2 =0$\\
+$右迴路$ $-2 \cdot I_{3}-5=0$
+\end{array}
+\right .\\
 \includegraphics[width=3in]{TriangleCircuit.jpg}\\
-% $ R_{ab}=\frac{(R_{1}+R_{2} \times R_{3})}{R_{1}+R_{2}+R_{3}}$
-% $ R_{bc}=\frac{(R_{2}+R_{3} \times R_{1})}{R_{1}+R_{2}+R_{3}}$
-% $ R_{ca}=\frac{(R_{3}+R_{1} \times R_{2})}{R_{1}+R_{2}+R_{3}}$\\
+$ R_{ab}=\frac{(R_{1}+R_{2} \times R_{3})}{R_{1}+R_{2}+R_{3}}$
+$ R_{bc}=\frac{(R_{2}+R_{3} \times R_{1})}{R_{1}+R_{2}+R_{3}}$
+$ R_{ca}=\frac{(R_{3}+R_{1} \times R_{2})}{R_{1}+R_{2}+R_{3}}$\\
 $ R_{a}=\frac{R_{2}R_{3}}{R_{1}+R_{2}+R_{3}}$
 $ R_{b}=\frac{R_{3}R_{1}}{R_{1}+R_{2}+R_{3}}$
 $ R_{c}=\frac{R_{1}R_{2}}{R_{1}+R_{2}+R_{3}}$\\
@@ -199,7 +210,7 @@ $ R_{s}=\frac{R_{A}}{n-1}$
 $ 通量\phi (flux)$
 $ \phi=\vec{V} \cdot \vec{A}=V \cdot A \cos \theta$ \\$ V為流速$ $ A為面積向量 $ $\theta 為與\vec{A} 夾角$\\
 $ 電場通量\phi$
-$\phi=\sum \vec{E} \cdot \vardelta \vec{A} (\frac{N\cdot m^2}{C})\\
+$\phi=\sum \vec{E} \cdot \varDelta \vec{A} (\frac{N\cdot m^2}{C})\\
 高斯定律通過高斯面之總電通量 $\phi$ \\與該曲面之靜電荷 $q_{enc}$ 之間關係 
 %$ \varepsilon_{0} \cdot \phi = q_{enc}$\\
 $ \phi = \frac{\sum q_{enc}}{\varepsilon_{0}}$ \\
@@ -210,38 +221,48 @@ Case 1: 球體為導體(R為球半徑)(屏蔽效應)\\
 $r \geq R$  $E=\frac{1}{4 \pi \varepsilon_{0}}\frac{q}{r^2}$\\
 $r < R$ $E=0$\\
 Case 2: 球體為非導體(R為球半徑 $\rho$為體電荷密度)\\
-$r > R$ $E=\frac{1}{4 \pi \varepsilon_{0}}\frac{q}{r^2}=\frac{\rho(\frac{4}{3} \pi R^3)}{4 \pi \varepsilon_{0}}\frac{1}{r^2}$\\
-$r < R$ $E=\frac{1}{4 \pi \varepsilon_{0}}\frac{q'}{r^2}=\frac{\rho(\frac{4}{3} \pi R^3)\frac{r^3}{R^3}}{4 \pi \varepsilon_{0}}\frac{1}{r^2}=\frac{\rho r}{3\varepsilon_{0}}$
+$r > R$ $E=\frac{1}{4 \pi \varepsilon_{0}}\frac{q}{r^2}=\frac{\rho(\frac{4}{3} \pi R^3)}{4 \pi \varepsilon_{0}}\frac{1}{r^2} = \frac{\rho R^3}{3 r^2 \varepsilon_{0}}$\\
+$r < R$ $E=\frac{1}{4 \pi \varepsilon_{0}}\frac{q'}{r^2}=\frac{\rho(\frac{4}{3} \pi R^3)\frac{r^3}{R^3}}{4 \pi \varepsilon_{0}}\frac{1}{r^2}=\frac{\rho r}{3\varepsilon_{0}}$\\
+$ 高斯轉庫倫$ $E=\frac{1}{4 \pi \varepsilon_{0}}\frac{ q_{enc}}{r^2} $  $F= \frac{1}{4 \pi \varepsilon_{0}} \frac{q \cdot q_{enc}}{r^2} $
 
 
-\end{normalsize}
-
-\begin{small}
 \\
 \section{翻譯}
-electric charge:電荷 \\
-electric filed:電場 \\
-likes repel:同性相斥 \\
-opposites attract:異性相吸 \\
-conductor:導體 \\
-insulator:非導體 \\
-semi conductor:半導體 \\
-linear charge:線電荷 \\
-surface charge:面電荷 \\
-volume charge:體電荷 \\
-electromotive force/emf:電動勢  $ V_{t} $\\
-voltage drop:電壓降 $E$\\
-terminal voltage:端電壓 $ V_{r} $\\ 
-node:節點 \\
-branch:支路 \\
-loop:迴路 \\
-mesh:網目 \\
-series circuit:串聯電路 \\
-parallel circuit:並聯電路 \\
-multiplier:倍增器 \\
-flux:通量 \\
-electric flux:電場通量
 
+\begin{tabular}{|c|c|c|c|}
+    \hline
+    electric charge&電荷&electric filed&電場 \\
+    \hline
+    \multicolumn{2}{|c|}{opposites attract}&\multicolumn{2}{c|}{異性相吸}   \\
+    \hline
+    \multicolumn{2}{|c|}{likes repel}&\multicolumn{2}{c|}{同性相斥}\\
+    \hline
+    semi conductor&半導體 &linear charge&線電荷\\
+    \hline
+    surface charge&面電荷& volume charge & 體電荷 \\
+    \hline
+    \multicolumn{2}{|c|}{electromotive force/emf}&\multicolumn{2}{c|}{電動勢$ \varepsilon $}   \\
+    \hline
+    \multicolumn{2}{|c|}{voltage drop}&\multicolumn{2}{c|}{電壓降}\\
+    \hline
+    \multicolumn{2}{|c|}{terminal voltage}&\multicolumn{2}{c|}{端電壓}\\
+    \hline
+    node&節點&branch&支路\\ 
+    \hline
+    loop&迴路&mesh&網目  \\
+    \hline
+    multiplier&倍增器 & &  \\
+    \hline
+    \multicolumn{2}{|c|}{series circuit}&\multicolumn{2}{c|}{串聯電路}   \\
+    \hline
+    \multicolumn{2}{|c|}{parallel circuit}&\multicolumn{2}{c|}{並聯電路}   \\
+    \hline
+    flux&通量&electric flux&電場通量\\
+    \hline
+\end{tabular}
+\end{narmalsize}
+
+\begin{small} 
 
 \lstinputlisting{die.cpp}
 \end{small}

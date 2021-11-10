@@ -447,24 +447,15 @@ INPUT RingAndCharge.jpg
 INPUT .\21-98.jpg
 INPUT .\21-98.jpg
 INPUT 21-98.jpg
+INPUT .\kirchhoff.jpg
+INPUT .\kirchhoff.jpg
+INPUT kirchhoff.jpg
 INPUT .\TriangleCircuit.jpg
 INPUT .\TriangleCircuit.jpg
 INPUT TriangleCircuit.jpg
 INPUT .\Wheatstone.jpg
 INPUT .\Wheatstone.jpg
 INPUT Wheatstone.jpg
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi9.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy9.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex9.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr9.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
 INPUT .\die.cpp
 INPUT die.cpp
 INPUT .\die.cpp

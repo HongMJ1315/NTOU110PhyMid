@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.11.9)  10 NOV 2021 10:12
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.11.9)  10 NOV 2021 15:23
 entering extended mode
 **./physics.tex
 (physics.tex
@@ -532,65 +532,170 @@ File: RingAndCharge.jpg Graphic file (type bmp)
 File: 21-98.jpg Graphic file (type bmp)
 <21-98.jpg>
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--160
+Underfull \hbox (badness 10000) in paragraph at lines 137--161
 
  []
 
 
-physics.tex:162: LaTeX Error: There's no line here to end.
+physics.tex:163: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.162 \subsection
+l.163 \subsection
                  {基礎電路}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-File: TriangleCircuit.jpg Graphic file (type bmp)
-<TriangleCircuit.jpg>
-File: Wheatstone.jpg Graphic file (type bmp)
-<Wheatstone.jpg>
-physics.tex:195: Missing number, treated as zero.
-<to be read again> 
-                   (
-l.195 $ R_{m}=R_{v}\time (
-                          m-1)$\\
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-physics.tex:202: Undefined control sequence.
-l.202 $\phi=\sum \vec{E} \cdot \vardelta
-                                         \vec{A} (\frac{N\cdot m^2}{C})\\
+physics.tex:164: Undefined control sequence.
+<argument> n \cdot A \cdot \cdot L \codt 
+                                         e
+l.164 ...A \cdot \cdot L \codt e}{\frac{L}{V_{d}}}
+                                                  =nA_{e}V_{d}$\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-physics.tex:203: Missing $ inserted.
+File: kirchhoff.jpg Graphic file (type bmp)
+<kirchhoff.jpg>
+physics.tex:184: Missing $ inserted.
 <inserted text> 
                 $
-l.203 高斯定律通過高斯面之總電通量 $\phi
+l.184 \left
+           \{
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+physics.tex:186: Missing $ inserted.
+<inserted text> 
+                $
+l.186 $Junction$ $I_
+                    {1}+I_{2}=I_{3}$\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+physics.tex:187: Missing $ inserted.
+<inserted text> 
+                $
+l.187 $
+       左迴路$ $10-I_{1} \codt 1 +5- I_{2} \cdot 2 =0$\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+physics.tex:187: Missing $ inserted.
+<inserted text> 
+                $
+l.187 $左迴路$ $10-I_
+                  {1} \codt 1 +5- I_{2} \cdot 2 =0$\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+physics.tex:187: Undefined control sequence.
+l.187 $左迴路$ $10-I_{1} \codt
+                            1 +5- I_{2} \cdot 2 =0$\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+physics.tex:188: Missing $ inserted.
+<inserted text> 
+                $
+l.188 $
+       右迴路$ $-2 \cdot I_{3}-5=0$
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+physics.tex:188: Missing $ inserted.
+<inserted text> 
+                $
+l.188 $右迴路$ $-2 \cdot
+                      I_{3}-5=0$
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+physics.tex:189: Missing $ inserted.
+<inserted text> 
+                $
+l.189 \end{array}
+                 
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+File: TriangleCircuit.jpg Graphic file (type bmp)
+<TriangleCircuit.jpg>
+physics.tex:192: Missing $ inserted.
+<inserted text> 
+                $
+l.192 $ R_
+          {ab}=\frac{(R_{1}+R_{2} \times R_{3})}{R_{1}+R_{2}+R_{3}}$
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+File: Wheatstone.jpg Graphic file (type bmp)
+<Wheatstone.jpg>
+physics.tex:206: Missing number, treated as zero.
+<to be read again> 
+                   (
+l.206 $ R_{m}=R_{v}\time (
+                          m-1)$\\
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--209
+[]
+ []
+
+physics.tex:214: Missing $ inserted.
+<inserted text> 
+                $
+l.214 高斯定律通過高斯面之總電通量 $\phi
                           $ \\與該曲面之靜電荷 $q_{enc}$ 之間關係
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-physics.tex:221: LaTeX Error: There's no line here to end.
+physics.tex:230: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.221 \section
+l.230 \section
               {翻譯}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
+
+
+physics.tex:263: LaTeX Error: \begin{normalsize} on input line 95 ended by \end{narmalsize}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.263 \end{narmalsize}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (11.92778pt too wide) in paragraph at lines 232--264
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 232--264
+
+ []
 
 
 Package xeCJK Warning: Unknown CJK family `\CJKttdefault' is being ignored.
@@ -603,11 +708,11 @@ Missing character: There is no ∧ in font Monaco/OT:language=dflt;!
 
 
 LaTeX Font Warning: Font shape `TU/Monaco(0)/m/it' undefined
-(Font)              using `TU/Monaco(0)/m/n' instead on input line 3.
+(Font)              using `TU/Monaco(0)/m/n' instead on input line 2.
 
 
 LaTeX Font Warning: Font shape `TU/NotoSansTC(0)/m/it' undefined
-(Font)              using `TU/NotoSansTC(0)/m/n' instead on input line 3.
+(Font)              using `TU/NotoSansTC(0)/m/n' instead on input line 2.
 
 Missing character: There is no Д in font Monaco/OT:language=dflt;!
 )
@@ -624,12 +729,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 8877 strings out of 411275
- 196510 string characters out of 2835482
- 858412 words of memory out of 3000000
- 29180 multiletter control sequences out of 15000+600000
- 409109 words of font info for 89 fonts, out of 8000000 for 9000
+ 8860 strings out of 411275
+ 196238 string characters out of 2835482
+ 868412 words of memory out of 3000000
+ 29172 multiletter control sequences out of 15000+600000
+ 405983 words of font info for 74 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 73i,11n,81p,249b,1265s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 73i,11n,81p,249b,1210s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on physics.pdf (1 page).

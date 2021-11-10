@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.11.9)  10 NOV 2021 15:23
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.11.9)  10 NOV 2021 15:51
 entering extended mode
 **./physics.tex
 (physics.tex
@@ -562,138 +562,60 @@ and I'll forget about whatever was undefined.
 
 File: kirchhoff.jpg Graphic file (type bmp)
 <kirchhoff.jpg>
-physics.tex:184: Missing $ inserted.
-<inserted text> 
-                $
-l.184 \left
-           \{
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-physics.tex:186: Missing $ inserted.
-<inserted text> 
-                $
-l.186 $Junction$ $I_
-                    {1}+I_{2}=I_{3}$\\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-physics.tex:187: Missing $ inserted.
-<inserted text> 
-                $
-l.187 $
-       左迴路$ $10-I_{1} \codt 1 +5- I_{2} \cdot 2 =0$\\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-physics.tex:187: Missing $ inserted.
-<inserted text> 
-                $
-l.187 $左迴路$ $10-I_
-                  {1} \codt 1 +5- I_{2} \cdot 2 =0$\\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-physics.tex:187: Undefined control sequence.
-l.187 $左迴路$ $10-I_{1} \codt
-                            1 +5- I_{2} \cdot 2 =0$\\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-physics.tex:188: Missing $ inserted.
-<inserted text> 
-                $
-l.188 $
-       右迴路$ $-2 \cdot I_{3}-5=0$
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-physics.tex:188: Missing $ inserted.
-<inserted text> 
-                $
-l.188 $右迴路$ $-2 \cdot
-                      I_{3}-5=0$
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-physics.tex:189: Missing $ inserted.
-<inserted text> 
-                $
-l.189 \end{array}
-                 
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
 File: TriangleCircuit.jpg Graphic file (type bmp)
 <TriangleCircuit.jpg>
-physics.tex:192: Missing $ inserted.
-<inserted text> 
-                $
-l.192 $ R_
-          {ab}=\frac{(R_{1}+R_{2} \times R_{3})}{R_{1}+R_{2}+R_{3}}$
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
 File: Wheatstone.jpg Graphic file (type bmp)
 <Wheatstone.jpg>
-physics.tex:206: Missing number, treated as zero.
+physics.tex:208: Missing number, treated as zero.
 <to be read again> 
                    (
-l.206 $ R_{m}=R_{v}\time (
+l.208 $ R_{m}=R_{v}\time (
                           m-1)$\\
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 164--209
-[]
- []
-
-physics.tex:214: Missing $ inserted.
+physics.tex:216: Missing $ inserted.
 <inserted text> 
                 $
-l.214 高斯定律通過高斯面之總電通量 $\phi
+l.216 高斯定律通過高斯面之總電通量 $\phi
                           $ \\與該曲面之靜電荷 $q_{enc}$ 之間關係
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-physics.tex:230: LaTeX Error: There's no line here to end.
+physics.tex:232: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.230 \section
+l.232 \section
               {翻譯}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-physics.tex:263: LaTeX Error: \begin{normalsize} on input line 95 ended by \end{narmalsize}.
+physics.tex:265: LaTeX Error: \begin{normalsize} on input line 95 ended by \end{narmalsize}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.263 \end{narmalsize}
+l.265 \end{narmalsize}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (11.92778pt too wide) in paragraph at lines 232--264
+Overfull \hbox (11.92778pt too wide) in paragraph at lines 234--266
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 232--264
+Underfull \hbox (badness 10000) in paragraph at lines 234--266
 
  []
 
